@@ -26,7 +26,7 @@ class Imgur {
      * List of available api's for magic calls.
      * @var string[] Imgur api names.
      */
-    private $availableApis = ['account', 'albumorimage', 'album', 'comment', 'conversation','customgallery, 'gallery', 'image', 'memegen', 'notification','topic'];
+    private $availableApis = ['account', 'albumorimage', 'album', 'comment', 'conversation','customgallery', 'gallery', 'image', 'memegen', 'notification','topic'];
 
     /**
      * Imgur constructor.
