@@ -1,5 +1,5 @@
 {
-    "name": "ozankurt/imgur-laravel",
+    "name": "moeplhausen/imgurlaravel",
     "description": "A wrap-up package to make works easier with imgur.",
     "keywords": ["imgur", "laravel", "api", "wrapper"],
     "license": "MIT",
