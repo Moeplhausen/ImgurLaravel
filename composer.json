@@ -1,5 +1,5 @@
 {
-    "name": "Moeplhausen/imgur-laravel",
+    "name": "moeplhausen/imgur-laravel",
     "description": "A wrap-up package to make works easier with imgur made by Ozan Kurt.",
     "keywords": ["imgur", "laravel", "api", "wrapper"],
     "license": "MIT",
