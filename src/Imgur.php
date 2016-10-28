@@ -10,7 +10,7 @@ use Kurt\Imgur\Exceptions\NonexistentApiException;
  *
  * @author Ozan Kurt <ozankurt2@gmail.com>
  * @package ozankurt/imgur-laravel
- * @version 1.0.1
+ * @version 1.0.6
  */
 class Imgur {
 
@@ -67,12 +67,9 @@ class Imgur {
      */
     public function getApi($api)
     {
-        $api = strtolower($api);
-
-        if (in_array($api, $this->availableApis)) {
+        if (in_array(strtolower($api), $this->availableApis)) {
             return call_user_func_array([$this->client, 'api'], [$api]);
         }
-
         throw new NonexistentApiException($api);
     }
 
