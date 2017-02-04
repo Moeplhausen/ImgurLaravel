@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "j0k3r/php-imgur-api-client": "^3.0",
+        "moeplhausen/php-imgur": "^3.0.1",
         "intervention/image": "^2.3"
     },
  	"repositories": [
